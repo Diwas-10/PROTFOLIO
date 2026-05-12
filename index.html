@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+  <meta name="description" content="Diwas Pokhrel — CEO, Web Developer & ECE Student from Nepal. Building production-grade web applications."/>
+  <title>Diwas Pokhrel · Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- SCROLL PROGRESS -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ══ NAV ══ -->
+<nav>
+  <a class="nav-logo" href="#hero">W E L C O M E<span></span></a>
+
+  <div class="nav-links" id="navLinks">
+    <a href="#hero">Home</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#certifications">Certs</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <div class="nav-actions">
+    <span class="avail-pill"><span class="avail-dot"></span>Open to work</span>
+    <a class="icon-btn" href="https://github.com/Diwas-Pokhrel-10" target="_blank" rel="noopener" aria-label="GitHub">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+    </a>
+    <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">
+      <span id="themeIcon">🌙</span>
+      <span id="themeLabel">Dark</span>
+    </button>
+    <div class="hamburger" id="hamburger" aria-label="Open menu" role="button" tabindex="0">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section id="hero">
+  <div class="hero-text">
+    <h1 class="hero-name">Diwas<br/><em>Pokhrel</em></h1>
+    <p class="hero-tagline">
+      <span id="typedRole"></span><span class="cursor"></span>
+    </p>
+    <p class="hero-desc">
+      Passionate Full Stack developer and entrepreneurial leader pursuing a
+      <strong>Bachelor's in Electronics & Communication Engineering</strong>.
+      Currently driving innovation as CEO at <strong>Sajilai.com</strong> while
+      building digital experiences at Pokhrel Supplies & Pvt. Ltd.
+    </p>
+    <div class="hero-cta">
+      <a href="#contact" class="btn-primary">Let's Talk →</a>
+      <a href="#projects" class="btn-secondary">See My Work</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-num">2+</span>
+        <span class="stat-label">Years Exp.</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">10+</span>
+        <span class="stat-label">Projects</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">3</span>
+        <span class="stat-label">Languages</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-photo-wrap">
+    <div class="hero-photo-frame">
+      <img src="pp_photo.jpeg" alt="Diwas Pokhrel" loading="eager"/>
+    </div>
+  </div>
+</section>
+
+<!-- ══ EDUCATION ══ -->
+<section id="education">
+  <div class="section-wrap">
+    <div class="section-header reveal">
+      <h2 class="section-title">Education</h2>
+    </div>
+    <div class="edu-grid">
+
+      <div class="edu-card reveal">
+        <div class="edu-icon">🎓</div>
+        <div class="edu-degree">B.E. Electronics & Communication Engineering</div>
+        <div class="edu-school">Himalaya College of Engineering, Kathmandu</div>
+        <div class="edu-date">2081 B.S. (2024) — Present</div>
+        <div class="edu-desc">Focused on digital systems, communication protocols, and embedded programming.</div>
+        <span class="edu-badge">● Ongoing</span>
+      </div>
+
+      <div class="edu-card reveal">
+        <div class="edu-icon">📚</div>
+        <div class="edu-degree">Higher Secondary Education (+2 Science)</div>
+        <div class="edu-school">Tilottama Campus, Nepal</div>
+        <div class="edu-date">2079 — 2081 B.S.</div>
+
+      </div>
+
+      <div class="edu-card reveal">
+        <div class="edu-icon">🏫</div>
+        <div class="edu-degree">SEE — Secondary Education Examination</div>
+        <div class="edu-school">Banganga Secondary School, Nepal</div>
+        <div class="edu-date">2078 B.S.</div>
+        <div class="edu-desc">Completed secondary education.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ EXPERIENCE ══ -->
+<section id="experience">
+  <div class="section-wrap">
+    <div class="section-header reveal">
+      <h2 class="section-title">Experience</h2>
+    </div>
+    <div class="exp-list">
+
+      <div class="exp-card reveal">
+        <div>
+          <div class="exp-role">CEO & Program Manager</div>
+          <a class="exp-company" href="#" target="_blank">Sajilai.com</a>
+          <div class="exp-desc">
+            Leading the company's vision, product strategy, and cross-functional engineering teams.
+            Overseeing full program lifecycle from ideation through production deployment.
+            Defining technical and business roadmaps for scalable digital solutions.
+          </div>
+          <span class="exp-badge">Current Role</span>
+        </div>
+        <div class="exp-date">2026 — Present</div>
+      </div>
+
+      <div class="exp-card reveal">
+        <div>
+          <div class="exp-role">Web Developer & Graphic Designer</div>
+          <a class="exp-company" href="#" target="_blank">Pokhrel Supplies & Pvt. Ltd.</a>
+          <div class="exp-desc">
+            Designing and developing responsive web platforms with modern UI/UX standards.
+            Crafting brand identities and integrating backend services with Node.js and Supabase for production apps.
+          </div>
+          <span class="exp-badge">Active</span>
+        </div>
+        <div class="exp-date">2024 — Present</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ PROJECTS ══ -->
+<section id="projects">
+  <div class="section-wrap">
+    <div class="section-header reveal">
+      <h2 class="section-title">Projects</h2>
+    </div>
+
+    <!-- Resume download banner -->
+    <div class="resume-banner reveal">
+      <div>
+        <div class="resume-banner-title">Download my resume</div>
+        <div class="resume-banner-sub">Full details of experience, skills & education.</div>
+      </div>
+      <a href="Diwas_cv.pdf" download class="btn-resume">↓ Download CV</a>
+    </div>
+
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-img">
+          <div class="marquee-container">
+            <div class="marquee-track">
+              <span class="marquee-text">Coming soon</span>
+              <span class="marquee-text">Coming soon</span>
+              <span class="marquee-text">Coming soon</span>
+              <span class="marquee-text">Coming soon</span>
+            </div>
+          </div>
+          <div class="project-icon">🛒</div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="tag">Next.js</span><span class="tag">Supabase</span><span class="tag">Node.js</span>
+          </div>
+          <div class="project-name">Sajilai.com</div>
+          <div class="project-desc">A digital commerce platform for Nepal — streamlining local commerce with modern web infrastructure.</div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-img">
+          <div class="marquee-container">
+            <div class="marquee-track">
+              <span class="marquee-text">Adding soon</span>
+              <span class="marquee-text">Adding soon</span>
+              <span class="marquee-text">Adding soon</span>
+              <span class="marquee-text">Adding soon</span>
+            </div>
+          </div>
+          <div class="project-icon">🎨</div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="tag">React</span><span class="tag">UI/UX</span><span class="tag">Figma</span>
+          </div>
+          <div class="project-name">Brand Design Suite</div>
+          <div class="project-desc">End-to-end brand identity and web presence for Pokhrel Supplies — from wireframe to deployment.</div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-img">
+          <div class="marquee-container">
+            <div class="marquee-track">
+              <span class="marquee-text">Adding soon</span>
+              <span class="marquee-text">Adding soon</span>
+              <span class="marquee-text">Adding soon</span>
+              <span class="marquee-text">Adding soon</span>
+            </div>
+          </div>
+          <div class="project-icon">🤖</div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags">
+            <span class="tag">OpenAI API</span><span class="tag">Python</span><span class="tag">PostgreSQL</span>
+          </div>
+          <div class="project-name">AI Integration Project</div>
+          <div class="project-desc">Incorporating OpenAI APIs into production web applications to power intelligent user experiences.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ SKILLS ══ -->
+<section id="skills">
+  <div class="section-wrap">
+    <div class="section-header reveal">
+      <h2 class="section-title">Skills</h2>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-group reveal">
+        <div class="skill-group-label">Frontend</div>
+        <div class="skill-items">
+          <div class="skill-item"><span class="skill-icon">⚛️</span><span class="skill-name">React</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:90%"></div></div></div>
+          <div class="skill-item"><span class="skill-icon">▲</span><span class="skill-name">Next.js</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:85%"></div></div></div>
+          <div class="skill-item"><span class="skill-icon">🟨</span><span class="skill-name">JavaScript</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:88%"></div></div></div>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <div class="skill-group-label">Backend</div>
+        <div class="skill-items">
+          <div class="skill-item"><span class="skill-icon">🟩</span><span class="skill-name">Node.js</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:80%"></div></div></div>
+          <div class="skill-item"><span class="skill-icon">🐍</span><span class="skill-name">Python</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:72%"></div></div></div>
+          <div class="skill-item"><span class="skill-icon">🐘</span><span class="skill-name">PostgreSQL</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:70%"></div></div></div>
+          <div class="skill-item"><span class="skill-icon">🤖</span><span class="skill-name">OpenAI API</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:75%"></div></div></div>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <div class="skill-group-label">Tools</div>
+        <div class="skill-items">
+          <div class="skill-item"><span class="skill-icon">🐙</span><span class="skill-name">Git / GitHub</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:88%"></div></div></div>
+          <div class="skill-item"><span class="skill-icon">▲</span><span class="skill-name">Vercel</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:85%"></div></div></div>
+          <div class="skill-item"><span class="skill-icon">⚡</span><span class="skill-name">Supabase</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:78%"></div></div></div>
+        </div>
+      </div>
+
+      <div class="skill-group reveal">
+        <div class="skill-group-label">Design</div>
+        <div class="skill-items">
+          <div class="skill-item"><span class="skill-icon">🎨</span><span class="skill-name">Graphic Design</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:82%"></div></div></div>
+          <div class="skill-item"><span class="skill-icon">📐</span><span class="skill-name">UI / UX</span><div class="skill-bar-wrap"><div class="skill-bar" style="width:80%"></div></div></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Languages -->
+    <div class="section-header reveal" style="margin-top:3rem; margin-bottom:1rem;">
+      <h3 class="section-title" style="font-size:1.4rem;">Languages</h3>
+    </div>
+    <div class="lang-grid">
+      <div class="lang-card reveal">
+        <div class="lang-name">Nepali</div>
+        <div class="lang-level">Native</div>
+        <div class="lang-dots">
+          <div class="lang-dot filled"></div><div class="lang-dot filled"></div><div class="lang-dot filled"></div>
+          <div class="lang-dot filled"></div><div class="lang-dot filled"></div>
+        </div>
+      </div>
+      <div class="lang-card reveal">
+        <div class="lang-name">English</div>
+        <div class="lang-level">Professional</div>
+        <div class="lang-dots">
+          <div class="lang-dot filled"></div><div class="lang-dot filled"></div><div class="lang-dot filled"></div>
+          <div class="lang-dot filled"></div><div class="lang-dot"></div>
+        </div>
+      </div>
+      <div class="lang-card reveal">
+        <div class="lang-name">Hindi</div>
+        <div class="lang-level">Conversational</div>
+        <div class="lang-dots">
+          <div class="lang-dot filled"></div><div class="lang-dot filled"></div><div class="lang-dot filled"></div>
+          <div class="lang-dot"></div><div class="lang-dot"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CERTIFICATIONS ══ -->
+<section id="certifications">
+  <div class="section-wrap">
+    <div class="section-header reveal">
+      <h2 class="section-title">Certifications</h2>
+    </div>
+    <div class="cert-grid">
+
+      <div class="cert-card reveal">
+        <div class="cert-badge">🤖</div>
+        <div class="cert-body">
+          <div class="cert-name">AI Resource Handling</div>
+          <div class="cert-issuer">Green City</div>
+          <div class="cert-date">January 2023</div>
+        </div>
+      </div>
+
+      <div class="cert-card reveal">
+        <div class="cert-badge">🌐</div>
+        <div class="cert-body">
+          <div class="cert-name">Hosting & Launching Web Applications</div>
+          <div class="cert-issuer">Express Software</div>
+          <div class="cert-date">February 2025</div>
+        </div>
+      </div>
+
+      <div class="cert-card reveal">
+        <div class="cert-badge">🎤</div>
+        <div class="cert-body">
+          <div class="cert-name">Public Speaking & Communication</div>
+          <div class="cert-issuer">Himalayas Officials</div>
+          <div class="cert-date">May 2024</div>
+        </div>
+      </div>
+
+      <div class="cert-card reveal">
+        <div class="cert-badge">🐙</div>
+        <div class="cert-body">
+          <div class="cert-name">Git & GitHub Fundamentals</div>
+          <div class="cert-issuer">Himalaya College of Engineering</div>
+          <div class="cert-date">December 2025</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ CONTACT ══ -->
+<section id="contact">
+  <div class="section-wrap">
+    <div class="section-header reveal">
+      <h2 class="section-title">Get In Touch</h2>
+    </div>
+    <div class="contact-grid">
+
+      <div class="reveal">
+        <p class="contact-intro">
+          Whether you have a project idea, a collaboration proposal, or just want to say hello — I'd love to hear from you.
+          I'm especially excited about projects that create real impact in South Asia's growing tech scene.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:contactdiwas10@gmail.com" class="contact-link">
+            <div class="contact-link-icon">📧</div>
+            <div class="contact-link-info">
+              <div class="contact-link-title">Email</div>
+              <div class="contact-link-sub">contactdiwas10@gmail.com</div>
+            </div>
+            <div class="contact-link-arrow">→</div>
+          </a>
+          <a href="https://www.linkedin.com/in/diwas-pokhrel-a81277344" target="_blank" rel="noopener" class="contact-link">
+            <div class="contact-link-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            </div>
+            <div class="contact-link-info">
+              <div class="contact-link-title">LinkedIn</div>
+              <div class="contact-link-sub">diwas-pokhrel</div>
+            </div>
+            <div class="contact-link-arrow">→</div>
+          </a>
+          <a href="https://www.instagram.com/diwas_pokhrel_10" target="_blank" rel="noopener" class="contact-link">
+            <div class="contact-link-icon">📸</div>
+            <div class="contact-link-info">
+              <div class="contact-link-title">Instagram</div>
+              <div class="contact-link-sub">@diwas_pokhrel_10</div>
+            </div>
+            <div class="contact-link-arrow">→</div>
+          </a>
+        </div>
+      </div>
+
+      <div class="reveal">
+        <div class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Name *</label>
+              <input type="text" class="form-input" placeholder="Your name" id="formName"/>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email *</label>
+              <input type="email" class="form-input" placeholder="enter your email" id="formEmail"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Subject</label>
+            <input type="text" class="form-input" placeholder="What's this about?" id="formSubject"/>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Message *</label>
+            <textarea class="form-textarea" placeholder="Click here to type your message..." id="formMessage"></textarea>
+          </div>
+          <button class="btn-primary" onclick="handleSubmit()">Send Message →</button>
+          <div id="formFeedback" style="font-size:0.85rem;display:none;padding-top:0.5rem;"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <p>Designed & built by <span>Diwas Pokhrel</span> · 2026 · Kathmandu, Nepal 🇳🇵</p>
+</footer>
+
+<!-- BACK TO TOP -->
+<a href="#hero" class="back-top" id="backTop" aria-label="Back to top">↑</a>
+
+<script src="script.js"></script>
+</body>
+</html>
